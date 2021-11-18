@@ -8,12 +8,14 @@ import com.sushantkh.model.RemoteData
 
 class MainViewModel : ViewModel() {
     private var mainRepository: MainRepository? = null
-
+    lateinit var posts:LiveData<RemoteData>
     init {
         mainRepository = MainRepository()
+        posts=MutableLiveData()
     }
 
     fun getRemoteData(): LiveData<RemoteData> {
-        return mainRepository!!.getData()
+        posts= mainRepository!!.getData()
+        return posts
     }
 }

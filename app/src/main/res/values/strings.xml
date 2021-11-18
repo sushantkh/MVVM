@@ -2,4 +2,6 @@
     <string name="app_name">Android Assignment</string>
     <string name="title">Title</string>
     <string name="post_body">Body</string>
+    <string name="using_views">Using Views</string>
+    <string name="using_compose">Using Compose</string>
 </resources>
