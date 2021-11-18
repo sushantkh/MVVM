@@ -7,3 +7,4 @@ Android components used in task:
 2. LiveData
 3. Retrofit
 4. ViewBinding
+5. Compose UI toolkit
